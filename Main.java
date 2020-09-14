@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  *
- * @author 
+ * @author Sevde Korkut
  */
 public class Main { 
 
@@ -26,14 +26,17 @@ public class Main {
    //declare a variable to store Subtotal 
    double Subtotal = chromebook*34.99 + motherboards *127.50 + mice*18.00;
 
-
+   // show the subtotal
    System.out.println("Subtotal = $" + Subtotal);
    // declare a variable to store Taxes 
    double Taxes = Subtotal*0.13; 
+   // show the taxes 
    System.out.println("Taxes = $" + Taxes);
    // declare a variable to store subtotal
    double Total = Subtotal + Taxes;
+   //show the Total
    System.out.println("Total = $" + Total);
+
    
    
 
